@@ -1,5 +1,9 @@
 """Configuration for validation experiments."""
 
+import os
+import subprocess
+from pathlib import Path
+
 # Output paths
 VALIDATION_OUTPUT_DIR = "output/validation"
 MATCHES_PATH = f"{VALIDATION_OUTPUT_DIR}/clawhub_github_matches.json"
@@ -17,7 +21,7 @@ ANALYSIS_DIR = f"{VALIDATION_OUTPUT_DIR}/analysis"
 FIGURES_DIR = f"{VALIDATION_OUTPUT_DIR}/figures"
 
 # GitHub API
-GITHUB_API_TOKEN = None  # Set via environment variable GITHUB_TOKEN
+GITHUB_API_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_API_BASE = "https://api.github.com"
 GITHUB_RATE_LIMIT = 5000  # requests per hour with auth
 
@@ -25,11 +29,6 @@ GITHUB_RATE_LIMIT = 5000  # requests per hour with auth
 RANDOM_STATE = 42
 CV_FOLDS = 5
 N_BOOTSTRAP = 1000
-
-# Data paths (computed relative to this file's location)
-import subprocess
-from pathlib import Path
-
 
 def _get_repo_root() -> Path:
     """Get git repository root, works in worktrees too."""

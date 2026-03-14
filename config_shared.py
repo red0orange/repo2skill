@@ -9,8 +9,6 @@ from typing import Optional
 PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_DATA_DIR = PROJECT_ROOT / "data"
 
-DEFAULT_GLM_API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-DEFAULT_GLM_MODEL = "glm-4-flash"
 DEFAULT_BAILIAN_API_URL = "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions"
 DEFAULT_BAILIAN_MODEL = "qwen-plus"
 DEFAULT_TEMPERATURE = 0.1

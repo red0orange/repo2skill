@@ -22,7 +22,7 @@ def calculate_skillability_core(data: Dict[str, Any], weights: Dict[str, float])
     score += weights['composability'] * (data.get('composability', 3) - 1) / 4
     score += weights['automation_value'] * (data.get('automation_value', 3) - 1) / 4
 
-    # Negative dimensions (inverted and normalized)
+    # Reverse-code negative dimensions, then apply their positive weights.
     score += weights['deployment_friction'] * (5 - data.get('deployment_friction', 3)) / 4
     score += weights['operational_risk'] * (5 - data.get('operational_risk', 3)) / 4
 
@@ -83,7 +83,7 @@ def calculate_opportunity_score(data: Dict[str, Any],
         opportunity_weights['repo_quality'] * repo_quality
     )
 
-    return opportunity_score
+    return max(0.0, min(1.0, opportunity_score))
 
 
 def add_scores_to_data(items: list, skillability_weights: Dict[str, float],

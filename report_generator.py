@@ -1,7 +1,10 @@
 """HTML report generator."""
 
+import os
 from typing import Dict, List, Any
 from datetime import datetime
+
+from pipeline_utils import escape_html, ensure_parent_dir
 
 
 def generate_html_report(summary_stats: Dict[str, Any],
@@ -16,6 +19,20 @@ def generate_html_report(summary_stats: Dict[str, Any],
         figures_dir: Directory containing figure files
         output_path: Path to save HTML report
     """
+    report_dir = os.path.dirname(os.path.abspath(output_path))
+    capability_figure = os.path.relpath(
+        os.path.join(figures_dir, "capability_distribution.png"),
+        report_dir,
+    )
+    skillability_figure = os.path.relpath(
+        os.path.join(figures_dir, "skillability_distribution.png"),
+        report_dir,
+    )
+    candidates_figure = os.path.relpath(
+        os.path.join(figures_dir, "top_candidates_scatter.png"),
+        report_dir,
+    )
+
     html = f"""<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -186,7 +203,7 @@ def generate_html_report(summary_stats: Dict[str, Any],
     <div class="section">
         <h2>📊 Capability Distribution</h2>
         <div class="figure">
-            <img src="figures/capability_distribution.png" alt="Capability Distribution">
+            <img src="{escape_html(capability_figure)}" alt="Capability Distribution">
             <div class="figure-caption">Comparison of capability distribution between Clawhub skills and GitHub repositories</div>
         </div>
     </div>
@@ -194,7 +211,7 @@ def generate_html_report(summary_stats: Dict[str, Any],
     <div class="section">
         <h2>📊 Skillability Distribution</h2>
         <div class="figure">
-            <img src="figures/skillability_distribution.png" alt="Skillability Distribution">
+            <img src="{escape_html(skillability_figure)}" alt="Skillability Distribution">
             <div class="figure-caption">Distribution of skillability scores for Clawhub skills and GitHub repositories</div>
         </div>
     </div>
@@ -202,7 +219,7 @@ def generate_html_report(summary_stats: Dict[str, Any],
     <div class="section">
         <h2>🎯 Top 20 GitHub Candidates</h2>
         <div class="figure">
-            <img src="figures/top_candidates_scatter.png" alt="Top Candidates Scatter">
+            <img src="{escape_html(candidates_figure)}" alt="Top Candidates Scatter">
             <div class="figure-caption">Scatter plot of top candidates by skillability core and repo quality</div>
         </div>
 
@@ -222,9 +239,9 @@ def generate_html_report(summary_stats: Dict[str, Any],
 
     # Add top candidates to table
     for i, candidate in enumerate(top_candidates[:20], 1):
-        name = candidate.get('name', 'Unknown')
-        url = candidate.get('url', '#')
-        capability = candidate.get('primary_capability', 'unknown').replace('_', ' ').title()
+        name = escape_html(candidate.get('name', 'Unknown'))
+        url = escape_html(candidate.get('url', '#'))
+        capability = escape_html(candidate.get('primary_capability', 'unknown').replace('_', ' ').title())
         skillability = candidate.get('skillability_score', 0)
         opportunity = candidate.get('opportunity_score', 0)
         stars = candidate.get('stars', 0)
@@ -270,6 +287,7 @@ def generate_html_report(summary_stats: Dict[str, Any],
 </html>
 """
 
+    ensure_parent_dir(output_path)
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)
 

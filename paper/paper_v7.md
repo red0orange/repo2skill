@@ -189,7 +189,7 @@ Across all 29,896 artifacts, the mean skillability score is **2.95** (SD = 1.18)
 
 Figure 1 shows the overall score distributions for Clawhub and GitHub. The Clawhub distribution is concentrated in the upper-middle range, whereas GitHub repositories span the full scale more broadly.
 
-![Figure 1. Skillability-score distributions for Clawhub skills and sampled GitHub repositories.](../output_large/figures/fig1_skillability_distribution.png)
+![Figure 1. Skillability-score distributions for Clawhub skills and sampled GitHub repositories.](assets/fig1_skillability_distribution.png)
 
 Table 2 reports the per-dimension statistics. For the negatively oriented raw dimensions (Deployment Friction and Operational Risk), lower values are better.
 
@@ -208,7 +208,7 @@ Three descriptive patterns stand out. First, **Task Clarity** is high across the
 
 Figure 2 presents the same comparison with confidence intervals.
 
-![Figure 2. Mean scores for the six skillability dimensions in Clawhub and GitHub, with 95% confidence intervals.](../output_large/figures/fig_new1_dimension_comparison_ci.png)
+![Figure 2. Mean scores for the six skillability dimensions in Clawhub and GitHub, with 95% confidence intervals.](assets/fig_new1_dimension_comparison_ci.png)
 
 We also computed descriptive correlations between each raw dimension and the composite score: Automation Value (0.850), Task Clarity (0.805), Composability (0.767), Interface Clarity (0.686), Deployment Friction (-0.080), and Operational Risk (-0.099). These numbers should be read cautiously: because the composite score is built from these dimensions, they are useful as a sanity check on the weighting scheme, not as independent empirical findings.
 
@@ -237,7 +237,7 @@ We next examine where promising projects cluster in the GitHub sample.
 
 Figure 3 complements the table by ranking categories with uncertainty bands. The visual pattern is important for the paper's main narrative: the high-opportunity portion of the repository landscape is structured rather than diffuse, which means future large-scale skillification efforts can begin from a relatively clear empirical target map.
 
-![Figure 3. Capability categories ranked by mean skillability in the GitHub sample, with 95% confidence intervals.](../output_large/figures/fig_new2_category_ranking.png)
+![Figure 3. Capability categories ranked by mean skillability in the GitHub sample, with 95% confidence intervals.](assets/fig_new2_category_ranking.png)
 
 **Table 3. Capability-category distribution in the GitHub sample**
 
@@ -259,7 +259,7 @@ These category-level results support a simple interpretation: high-skillability 
 
 Figure 4 shows the same result from a thresholded perspective. This view is useful if the goal is not only to characterize the ecosystem, but to estimate where a practical conversion pipeline is likely to yield many viable skills with limited screening overhead.
 
-![Figure 4. Share of high-skillability repositories (SS >= 4.0) by capability category in the GitHub sample.](../output_large/figures/fig_new3_high_skillability_by_category.png)
+![Figure 4. Share of high-skillability repositories (SS >= 4.0) by capability category in the GitHub sample.](assets/fig_new3_high_skillability_by_category.png)
 
 **Programming languages.** Language effects are present but smaller than category effects:
 
@@ -297,7 +297,7 @@ The score distribution is:
 
 Figure 5 makes this opportunity space concrete by showing the top-ranked repositories. The figure serves an important demonstration purpose: the candidate set is not abstract, but already contains recognizable and practically valuable software that could anchor future batch skillification experiments.
 
-![Figure 5. Top-ranked GitHub repositories by opportunity score.](../output_large/figures/fig_new4_top_opportunities.png)
+![Figure 5. Top-ranked GitHub repositories by opportunity score.](assets/fig_new4_top_opportunities.png)
 
 Table 4 lists selected examples across categories. The table is intentionally illustrative rather than exhaustive.
 
@@ -321,7 +321,7 @@ Popularity is a poor proxy for raw skillability. In the GitHub sample, the corre
 
 Figure 6 visualizes this disconnect directly. High-skillability repositories appear across the full popularity range, including many projects far below the top-starred tier. This pattern is consistent with the paper's intended role as the front-end stage of a discovery pipeline rather than a mechanism for simply re-identifying already dominant repositories.
 
-![Figure 6. Skillability scores versus GitHub stars (log scale) for sampled repositories.](../output_large/figures/fig8_stars_vs_skillability.png)
+![Figure 6. Skillability scores versus GitHub stars (log scale) for sampled repositories.](assets/fig8_stars_vs_skillability.png)
 
 By contrast, the correlation between **OpportunityScore** and **stars** is weakly positive (`r_s = 0.138`, `p < 0.001`) because stars are intentionally included in the ranking heuristic. That distinction matters. The first result supports the construct-level claim; the second simply confirms that the prioritization heuristic partly rewards repository quality signals.
 

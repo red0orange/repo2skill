@@ -1,7 +1,7 @@
 # From Software Repositories to Agent Skills
 
 [![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/paper_v7.md)
-[![Website](https://img.shields.io/badge/Website-Live-blue)](https://your-username.github.io/repo2skill)
+[![Website](https://img.shields.io/badge/Website-Docs-blue)](docs/index.html)
 
 An empirical study analyzing 29,896 software artifacts to understand which open-source repositories are suitable for transformation into AI agent skills.
 
@@ -31,6 +31,8 @@ Skillability measures how suitable a software project is for transformation into
 
 ```bash
 pip install -r requirements.txt
+cp .env.example .env
+# edit .env and set BAILIAN_API_KEY
 ```
 
 ### Run Analysis Pipeline
@@ -54,12 +56,15 @@ python generate_paper_figures.py
 ```
 ├── paper/                      # Paper manuscript and figures
 │   ├── paper_v7.md            # Latest paper version
-│   └── output_large/figures/  # All visualization figures
-├── websites/paper-showcase/    # Interactive visualization website
+│   └── assets/                # Figures used in the Markdown paper
+├── latex/                      # Optional LaTeX/PDF paper version
+│   ├── main.tex               # Main source
+│   └── main.pdf               # Built paper PDF
+├── docs/                       # Interactive visualization website
 │   ├── index.html             # Main page
 │   ├── repos.json             # Top 250 repositories
 │   └── assets/                # Figure images
-├── output/                     # Analysis results (gitignored)
+├── output/                     # Generated analysis outputs (gitignored)
 ├── validation/                 # Validation scripts
 ├── main.py                     # Main analysis pipeline
 ├── scorer.py                   # Skillability scoring logic
@@ -71,13 +76,13 @@ python generate_paper_figures.py
 
 ## 🌐 Interactive Website
 
-View the interactive visualization at `websites/paper-showcase/index.html` featuring:
+View the interactive visualization at `docs/index.html` featuring:
 - Six-dimension skillability framework
 - Distribution analysis across 29,896 artifacts
 - Category rankings and insights
 - Paginated table of 250 top-ranked repositories
 
-Deploy to GitHub Pages by pushing the `websites/paper-showcase/` directory.
+Deploy to GitHub Pages by publishing the `docs/` directory.
 
 ## 📈 Results
 
@@ -103,5 +108,8 @@ Deploy to GitHub Pages by pushing the `websites/paper-showcase/` directory.
 
 ## 📝 License
 
-MIT License - see LICENSE file for details
+MIT
 
+## Notes
+
+Generated outputs under `output/` and `output_large/` are intentionally not tracked.

@@ -1,8 +1,9 @@
 """Visualization module for generating charts."""
 
-import matplotlib.pyplot as plt
 import matplotlib
+
 matplotlib.use('Agg')  # Non-interactive backend
+import matplotlib.pyplot as plt
 import numpy as np
 from typing import Dict, List, Any
 from pathlib import Path

@@ -12,15 +12,23 @@ build/
 # Logs
 *.log
 
+# LaTeX build artifacts
+*.aux
+*.fdb_latexmk
+*.fls
+*.out
+
 # Output (keep structure, ignore data)
-output/*.csv
-output_large/*.csv
-output/validation/*.csv
-output_large/validation/*.csv
+output/
+output_large/
 
 # Temporary
 .worktrees/
 skillability-explorer/
+.claude/
+.pytest_cache/
+__pycache__/
+latex.zip
 
 # IDE
 .vscode/
