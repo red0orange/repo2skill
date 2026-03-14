@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.env
+
+# Build
+dist/
+build/
+
+# Logs
+*.log
+
+# Output (keep structure, ignore data)
+output/*.csv
+output_large/*.csv
+output/validation/*.csv
+output_large/validation/*.csv
+
+# Temporary
+.worktrees/
+skillability-explorer/
+
+# IDE
+.vscode/
+.idea/

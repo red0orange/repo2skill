@@ -1,0 +1,1752 @@
+[
+  {
+    "category": "Data Retrieval Search",
+    "name": "junegunn/fzf",
+    "stars": 78568,
+    "ss": 0.85,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "mem0ai/mem0",
+    "stars": 49688,
+    "ss": 0.84,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "jqlang/jq",
+    "stars": 33814,
+    "ss": 0.85,
+    "language": "C"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "lovell/sharp",
+    "stars": 32011,
+    "ss": 0.85,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "OpenHands/OpenHands",
+    "stars": 69047,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "PrefectHQ/fastmcp",
+    "stars": 23651,
+    "ss": 0.84,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "naptha/tesseract.js",
+    "stars": 37920,
+    "ss": 0.81,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "ultralytics/ultralytics",
+    "stars": 54339,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "iawia002/lux",
+    "stars": 30946,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "iamkun/dayjs",
+    "stars": 48589,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "mudler/LocalAI",
+    "stars": 43537,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "TA-Lib/ta-lib-python",
+    "stars": 11778,
+    "ss": 0.85,
+    "language": "Cython"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "DIYgod/RSSHub",
+    "stars": 42620,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "surrealdb/surrealdb",
+    "stars": 31531,
+    "ss": 0.8,
+    "language": "Rust"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "jhao104/proxy_pool",
+    "stars": 23209,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "standard/standard",
+    "stars": 29433,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "Turfjs/turf",
+    "stars": 10284,
+    "ss": 0.85,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "ggreer/the_silver_searcher",
+    "stars": 27233,
+    "ss": 0.8,
+    "language": "C"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "PostgREST/postgrest",
+    "stars": 26653,
+    "ss": 0.8,
+    "language": "Haskell"
+  },
+  {
+    "category": "Web Automation",
+    "name": "berstend/puppeteer-extra",
+    "stars": 7271,
+    "ss": 0.86,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Document Processing",
+    "name": "PDFMathTranslate/PDFMathTranslate",
+    "stars": 32230,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "porsager/postgres",
+    "stars": 8584,
+    "ss": 0.85,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "mxrch/GHunt",
+    "stars": 18525,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "svg/svgo",
+    "stars": 22379,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "Evil0ctal/Douyin_TikTok_Download_API",
+    "stars": 16629,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "eslint/eslint",
+    "stars": 27183,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "ai/nanoid",
+    "stars": 26661,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "FFmpeg/FFmpeg",
+    "stars": 57865,
+    "ss": 0.75,
+    "language": "C"
+  },
+  {
+    "category": "Web Automation",
+    "name": "ffuf/ffuf",
+    "stars": 15731,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "rollup/rollup",
+    "stars": 26254,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "makenotion/notion-sdk-js",
+    "stars": 5547,
+    "ss": 0.86,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "CocoaPods/CocoaPods",
+    "stars": 14812,
+    "ss": 0.81,
+    "language": "Ruby"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "DrewThomasson/ebook2audiobook",
+    "stars": 18439,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "bytebase/bytebase",
+    "stars": 13816,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "dubinc/dub",
+    "stars": 23177,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "nodemailer/nodemailer",
+    "stars": 17498,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "cloudflare/cloudflared",
+    "stars": 13456,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "TomWright/dasel",
+    "stars": 7879,
+    "ss": 0.84,
+    "language": "Go"
+  },
+  {
+    "category": "Document Processing",
+    "name": "jonschlinkert/remarkable",
+    "stars": 5824,
+    "ss": 0.85,
+    "language": "JavaScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "acmesh-official/acme.sh",
+    "stars": 45957,
+    "ss": 0.75,
+    "language": "Shell"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "nilaoda/N_m3u8DL-CLI",
+    "stars": 15831,
+    "ss": 0.8,
+    "language": "C#"
+  },
+  {
+    "category": "Code Devops",
+    "name": "python/mypy",
+    "stars": 20303,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "Mintplex-Labs/anything-llm",
+    "stars": 56169,
+    "ss": 0.74,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "ahmedkhaleel2004/gitdiagram",
+    "stars": 15274,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Web Automation",
+    "name": "getmaxun/maxun",
+    "stars": 15250,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "benjamn/recast",
+    "stars": 5226,
+    "ss": 0.85,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "golangci/golangci-lint",
+    "stars": 18654,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "loft-sh/vcluster",
+    "stars": 11040,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "guardrails-ai/guardrails",
+    "stars": 6534,
+    "ss": 0.84,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "conventional-changelog/commitlint",
+    "stars": 18370,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "ibis-project/ibis",
+    "stars": 6451,
+    "ss": 0.84,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "facebook/idb",
+    "stars": 4955,
+    "ss": 0.85,
+    "language": "Objective-C"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "pressly/goose",
+    "stars": 10303,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "ast-grep/ast-grep",
+    "stars": 12878,
+    "ss": 0.8,
+    "language": "Rust"
+  },
+  {
+    "category": "Code Devops",
+    "name": "lerna/lerna",
+    "stars": 36093,
+    "ss": 0.75,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "opensearch-project/OpenSearch",
+    "stars": 12546,
+    "ss": 0.8,
+    "language": "Java"
+  },
+  {
+    "category": "Web Automation",
+    "name": "seleniumbase/SeleniumBase",
+    "stars": 12485,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "guofei9987/blind_watermark",
+    "stars": 12200,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Web Automation",
+    "name": "zenorocha/clipboard.js",
+    "stars": 34177,
+    "ss": 0.75,
+    "language": "JavaScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "spotipy-dev/spotipy",
+    "stars": 5394,
+    "ss": 0.84,
+    "language": "Python"
+  },
+  {
+    "category": "Security Analysis",
+    "name": "trufflesecurity/trufflehog",
+    "stars": 25015,
+    "ss": 0.76,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "promptfoo/promptfoo",
+    "stars": 14808,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "rest-client/rest-client",
+    "stars": 5226,
+    "ss": 0.84,
+    "language": "Ruby"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "streamlink/streamlink",
+    "stars": 11335,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "e2b-dev/E2B",
+    "stars": 11267,
+    "ss": 0.8,
+    "language": "MDX"
+  },
+  {
+    "category": "Code Devops",
+    "name": "google/yapf",
+    "stars": 13992,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "LibreTranslate/LibreTranslate",
+    "stars": 13946,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "glideapps/quicktype",
+    "stars": 13661,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "GLips/Figma-Context-MCP",
+    "stars": 13655,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "itchyny/gojq",
+    "stars": 3717,
+    "ss": 0.85,
+    "language": "Go"
+  },
+  {
+    "category": "Document Processing",
+    "name": "ucbepic/docetl",
+    "stars": 3687,
+    "ss": 0.85,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "google/python-fire",
+    "stars": 28151,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "vibrantlabsai/ragas",
+    "stars": 12931,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "containerd/nerdctl",
+    "stars": 9910,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "brix/crypto-js",
+    "stars": 16392,
+    "ss": 0.78,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "slackapi/node-slack-sdk",
+    "stars": 3360,
+    "ss": 0.85,
+    "language": "TypeScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "alexellis/k3sup",
+    "stars": 7162,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "conan-io/conan",
+    "stars": 9265,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "jsonata-js/jsonata",
+    "stars": 2532,
+    "ss": 0.86,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "mrousavy/react-native-vision-camera",
+    "stars": 9234,
+    "ss": 0.8,
+    "language": "Swift"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "originalankur/maptoposter",
+    "stars": 11907,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "theoephraim/node-google-spreadsheet",
+    "stars": 2479,
+    "ss": 0.86,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "cosmiconfig/cosmiconfig",
+    "stars": 4130,
+    "ss": 0.84,
+    "language": "TypeScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "canonical/multipass",
+    "stars": 8976,
+    "ss": 0.8,
+    "language": "C++"
+  },
+  {
+    "category": "Document Processing",
+    "name": "gotenberg/gotenberg",
+    "stars": 11507,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "pppscn/SmsForwarder",
+    "stars": 24862,
+    "ss": 0.75,
+    "language": "Kotlin"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "qubvel-org/segmentation_models.pytorch",
+    "stars": 11400,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "doctrine/inflector",
+    "stars": 11361,
+    "ss": 0.79,
+    "language": "PHP"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "nashsu/FreeAskInternet",
+    "stars": 8729,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "ds300/patch-package",
+    "stars": 11108,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "yandex/gixy",
+    "stars": 8550,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "dorny/paths-filter",
+    "stars": 3003,
+    "ss": 0.85,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "reacherhq/check-if-email-exists",
+    "stars": 8438,
+    "ss": 0.8,
+    "language": "Rust"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "simonw/datasette",
+    "stars": 10825,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "openai/openai-node",
+    "stars": 10720,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "Michael-A-Kuykendall/shimmy",
+    "stars": 3793,
+    "ss": 0.84,
+    "language": "Rust"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "automl/auto-sklearn",
+    "stars": 8066,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "postmanlabs/httpbin",
+    "stars": 13525,
+    "ss": 0.78,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "cross-rs/cross",
+    "stars": 8052,
+    "ss": 0.8,
+    "language": "Rust"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "TanStack/query",
+    "stars": 48797,
+    "ss": 0.71,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Web Automation",
+    "name": "droidrun/droidrun",
+    "stars": 7935,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "Rich-Harris/degit",
+    "stars": 7808,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "pahen/madge",
+    "stars": 9996,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "styled-components/polished",
+    "stars": 7671,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "goss-org/goss",
+    "stars": 5870,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "sktime/sktime",
+    "stars": 9628,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "dylang/shortid",
+    "stars": 5724,
+    "ss": 0.81,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "gorse-io/gorse",
+    "stars": 9550,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "redplanetlabs/specter",
+    "stars": 2613,
+    "ss": 0.85,
+    "language": "Clojure"
+  },
+  {
+    "category": "Document Processing",
+    "name": "phiresky/ripgrep-all",
+    "stars": 9504,
+    "ss": 0.79,
+    "language": "Rust"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "openbao/openbao",
+    "stars": 5572,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "postmanlabs/newman",
+    "stars": 7193,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "terser/terser",
+    "stars": 9255,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "go-pay/gopay",
+    "stars": 5449,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "privatenumber/tsx",
+    "stars": 11851,
+    "ss": 0.78,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "drizzle-team/drizzle-orm",
+    "stars": 33276,
+    "ss": 0.72,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "yansongda/pay",
+    "stars": 5308,
+    "ss": 0.81,
+    "language": "PHP"
+  },
+  {
+    "category": "Code Devops",
+    "name": "antfu-collective/taze",
+    "stars": 4089,
+    "ss": 0.83,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "stack-auth/stack-auth",
+    "stars": 6733,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "hatchet-dev/hatchet",
+    "stars": 6723,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "Schniz/fnm",
+    "stars": 24395,
+    "ss": 0.74,
+    "language": "Rust"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "wkentaro/gdown",
+    "stars": 5150,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "google/go-github",
+    "stars": 11158,
+    "ss": 0.78,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "aallam/openai-kotlin",
+    "stars": 1811,
+    "ss": 0.86,
+    "language": "Kotlin"
+  },
+  {
+    "category": "Document Processing",
+    "name": "pdfcpu/pdfcpu",
+    "stars": 8516,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "niklashigi/apk-mitm",
+    "stars": 4938,
+    "ss": 0.81,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "xataio/pgroll",
+    "stars": 6382,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "Future-House/paper-qa",
+    "stars": 8264,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "deepseek-ai/DeepSeek-OCR",
+    "stars": 22684,
+    "ss": 0.74,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "RomelTorres/alpha_vantage",
+    "stars": 4742,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "prowler-cloud/prowler",
+    "stars": 13297,
+    "ss": 0.76,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "WebAssembly/wabt",
+    "stars": 7901,
+    "ss": 0.79,
+    "language": "C++"
+  },
+  {
+    "category": "Web Automation",
+    "name": "nolanlawson/fuite",
+    "stars": 4629,
+    "ss": 0.81,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "spatie/laravel-backup",
+    "stars": 5963,
+    "ss": 0.8,
+    "language": "PHP"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "activemerchant/active_merchant",
+    "stars": 4596,
+    "ss": 0.81,
+    "language": "Ruby"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "projectdiscovery/shuffledns",
+    "stars": 1601,
+    "ss": 0.86,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "hartator/wayback-machine-downloader",
+    "stars": 5829,
+    "ss": 0.8,
+    "language": "Ruby"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "elixir-tesla/tesla",
+    "stars": 2066,
+    "ss": 0.85,
+    "language": "Elixir"
+  },
+  {
+    "category": "Code Devops",
+    "name": "Yelp/detect-secrets",
+    "stars": 4440,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "dcastil/tailwind-merge",
+    "stars": 5589,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "git-ftp/git-ftp",
+    "stars": 5573,
+    "ss": 0.8,
+    "language": "Shell"
+  },
+  {
+    "category": "Code Devops",
+    "name": "di-sukharev/opencommit",
+    "stars": 7211,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "pypa/hatch",
+    "stars": 7144,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "adbar/trafilatura",
+    "stars": 5483,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "dorssel/usbipd-win",
+    "stars": 5472,
+    "ss": 0.8,
+    "language": "C#"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "caddyserver/certmagic",
+    "stars": 5472,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "kulshekhar/ts-jest",
+    "stars": 7090,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Document Processing",
+    "name": "KaTeX/KaTeX",
+    "stars": 19881,
+    "ss": 0.74,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "tailwindlabs/prettier-plugin-tailwindcss",
+    "stars": 7036,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Web Automation",
+    "name": "davidjbradshaw/iframe-resizer",
+    "stars": 6903,
+    "ss": 0.79,
+    "language": "JavaScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "jsforce/jsforce",
+    "stars": 1451,
+    "ss": 0.86,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "google/gts",
+    "stars": 5268,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "silenceper/wechat",
+    "stars": 5231,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "redisson/redisson",
+    "stars": 24268,
+    "ss": 0.72,
+    "language": "Java"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "scdl-org/scdl",
+    "stars": 3949,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "HKUDS/RAG-Anything",
+    "stars": 14204,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "simd-lite/simd-json",
+    "stars": 1372,
+    "ss": 0.86,
+    "language": "Rust"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "datarhei/restreamer",
+    "stars": 4943,
+    "ss": 0.8,
+    "language": "HTML"
+  },
+  {
+    "category": "Code Devops",
+    "name": "pre-commit/pre-commit-hooks",
+    "stars": 6403,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "ivpusic/react-native-image-crop-picker",
+    "stars": 6341,
+    "ss": 0.79,
+    "language": "Objective-C"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "zai-org/ChatGLM3",
+    "stars": 13750,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "anthropics/claude-code-security-review",
+    "stars": 3763,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "nabla-c0d3/sslyze",
+    "stars": 3740,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "antinomyhq/forge",
+    "stars": 4835,
+    "ss": 0.8,
+    "language": "Rust"
+  },
+  {
+    "category": "Code Devops",
+    "name": "antfu-collective/ni",
+    "stars": 8109,
+    "ss": 0.78,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "lokesh/color-thief",
+    "stars": 13593,
+    "ss": 0.75,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "Blaizzy/mlx-audio",
+    "stars": 6229,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "imageio/imageio",
+    "stars": 1681,
+    "ss": 0.85,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "terraform-docs/terraform-docs",
+    "stars": 4715,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "Nukesor/pueue",
+    "stars": 6091,
+    "ss": 0.79,
+    "language": "Rust"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "CursorTouch/Windows-MCP",
+    "stars": 4685,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "fastapi-users/fastapi-users",
+    "stars": 6042,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "makcedward/nlpaug",
+    "stars": 4650,
+    "ss": 0.8,
+    "language": "Jupyter Notebook"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "gotson/komga",
+    "stars": 6016,
+    "ss": 0.79,
+    "language": "Kotlin"
+  },
+  {
+    "category": "Document Processing",
+    "name": "tijsverkoyen/CssToInlineStyles",
+    "stars": 5846,
+    "ss": 0.79,
+    "language": "PHP"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "flamegraph-rs/flamegraph",
+    "stars": 5826,
+    "ss": 0.79,
+    "language": "Rust"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "snakers4/silero-models",
+    "stars": 5813,
+    "ss": 0.79,
+    "language": "Jupyter Notebook"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "tmux-plugins/tmux-resurrect",
+    "stars": 12535,
+    "ss": 0.75,
+    "language": "Shell"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "xszyou/Fay",
+    "stars": 12504,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "documenso/documenso",
+    "stars": 12502,
+    "ss": 0.75,
+    "language": "TypeScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "docker/cli",
+    "stars": 5734,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "rubenv/sql-migrate",
+    "stars": 3410,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "ragapp/ragapp",
+    "stars": 4407,
+    "ss": 0.8,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "firebase/genkit",
+    "stars": 5641,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Web Automation",
+    "name": "Usagi-org/ai-goofish-monitor",
+    "stars": 9406,
+    "ss": 0.76,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "guoyww/AnimateDiff",
+    "stars": 12060,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Web Automation",
+    "name": "growchief/growchief",
+    "stars": 3286,
+    "ss": 0.81,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "vercel/ms",
+    "stars": 5509,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "Vision-CAIR/MiniGPT-4",
+    "stars": 25759,
+    "ss": 0.71,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "sindrets/diffview.nvim",
+    "stars": 5418,
+    "ss": 0.79,
+    "language": "Lua"
+  },
+  {
+    "category": "Code Devops",
+    "name": "gulpjs/gulp",
+    "stars": 33013,
+    "ss": 0.7,
+    "language": "JavaScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "dromara/carbon",
+    "stars": 5224,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "great-expectations/great_expectations",
+    "stars": 11249,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "mtkennerly/ludusavi",
+    "stars": 5168,
+    "ss": 0.79,
+    "language": "Rust"
+  },
+  {
+    "category": "Code Devops",
+    "name": "uber-go/goleak",
+    "stars": 5130,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "fasiondog/hikyuu",
+    "stars": 3037,
+    "ss": 0.81,
+    "language": "C++"
+  },
+  {
+    "category": "Document Processing",
+    "name": "handlebars-lang/handlebars.js",
+    "stars": 18611,
+    "ss": 0.73,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "data-forge/data-forge-ts",
+    "stars": 1390,
+    "ss": 0.85,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "wenet-e2e/wenet",
+    "stars": 5051,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "mvdan/gofumpt",
+    "stars": 3884,
+    "ss": 0.8,
+    "language": "Go"
+  },
+  {
+    "category": "Code Devops",
+    "name": "ansible/ansible-lint",
+    "stars": 3833,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Web Automation",
+    "name": "ultrafunkamsterdam/nodriver",
+    "stars": 3820,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Web Automation",
+    "name": "hangwin/mcp-chrome",
+    "stars": 10748,
+    "ss": 0.75,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Code Devops",
+    "name": "satori/go.uuid",
+    "stars": 4901,
+    "ss": 0.79,
+    "language": "Go"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "vercel-labs/portless",
+    "stars": 4891,
+    "ss": 0.79,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "5ime/video_spider",
+    "stars": 2898,
+    "ss": 0.81,
+    "language": "PHP"
+  },
+  {
+    "category": "Web Automation",
+    "name": "feder-cr/Jobs_Applier_AI_Agent_AIHawk",
+    "stars": 29442,
+    "ss": 0.7,
+    "language": "Python"
+  },
+  {
+    "category": "Web Automation",
+    "name": "pichillilorenzo/flutter_inappwebview",
+    "stars": 3702,
+    "ss": 0.8,
+    "language": "Dart"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "citusdata/pg_cron",
+    "stars": 3695,
+    "ss": 0.8,
+    "language": "C"
+  },
+  {
+    "category": "Document Processing",
+    "name": "miso-belica/sumy",
+    "stars": 3665,
+    "ss": 0.8,
+    "language": "Python"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "domokane/FinancePy",
+    "stars": 2822,
+    "ss": 0.81,
+    "language": "Jupyter Notebook"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "abhimanyu003/sttr",
+    "stars": 1296,
+    "ss": 0.85,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "aws/aws-sdk-ruby",
+    "stars": 3641,
+    "ss": 0.8,
+    "language": "Ruby"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "NewFuture/DDNS",
+    "stars": 4663,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "hatoo/oha",
+    "stars": 10108,
+    "ss": 0.75,
+    "language": "Rust"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "wbt5/real-url",
+    "stars": 7781,
+    "ss": 0.76,
+    "language": "Python"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "Breakthrough/PySceneDetect",
+    "stars": 4615,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "davidmarkclements/0x",
+    "stars": 3530,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "remsky/Kokoro-FastAPI",
+    "stars": 4563,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "argoproj/argo-workflows",
+    "stars": 16517,
+    "ss": 0.73,
+    "language": "Go"
+  },
+  {
+    "category": "Multimedia Content",
+    "name": "ShiqiYu/libfacedetection",
+    "stars": 12741,
+    "ss": 0.74,
+    "language": "C++"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "ethereum-lists/chains",
+    "stars": 9830,
+    "ss": 0.75,
+    "language": "Kotlin"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "openai/swarm",
+    "stars": 21145,
+    "ss": 0.71,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "overtrue/pinyin",
+    "stars": 4444,
+    "ss": 0.79,
+    "language": "PHP"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "xxnuo/MTranServer",
+    "stars": 4435,
+    "ss": 0.79,
+    "language": "C++"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "elastic/elasticsearch-py",
+    "stars": 4369,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "mljar/mercury",
+    "stars": 4301,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "Rob--W/cors-anywhere",
+    "stars": 9353,
+    "ss": 0.75,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "Kanaries/pygwalker",
+    "stars": 15682,
+    "ss": 0.73,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "Arcenox-co/TickerQ",
+    "stars": 3306,
+    "ss": 0.8,
+    "language": "C#"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "Z3Prover/z3",
+    "stars": 12030,
+    "ss": 0.74,
+    "language": "C++"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "QwenLM/Qwen-Agent",
+    "stars": 15576,
+    "ss": 0.73,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "ianstormtaylor/superstruct",
+    "stars": 7154,
+    "ss": 0.76,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Communication Collaboration",
+    "name": "typpo/textbelt",
+    "stars": 3287,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "breejs/bree",
+    "stars": 3283,
+    "ss": 0.8,
+    "language": "JavaScript"
+  },
+  {
+    "category": "Business Productivity Ops",
+    "name": "formbricks/formbricks",
+    "stars": 11972,
+    "ss": 0.74,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Web Automation",
+    "name": "AirtestProject/Airtest",
+    "stars": 9201,
+    "ss": 0.75,
+    "language": "Python"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "TheR1D/shell_gpt",
+    "stars": 11889,
+    "ss": 0.74,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "jundot/omlx",
+    "stars": 4173,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Document Processing",
+    "name": "google/sentencepiece",
+    "stars": 11687,
+    "ss": 0.74,
+    "language": "C++"
+  },
+  {
+    "category": "Document Processing",
+    "name": "wooorm/markdown-rs",
+    "stars": 1469,
+    "ss": 0.84,
+    "language": "Rust"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "splunk/attack_range",
+    "stars": 2456,
+    "ss": 0.81,
+    "language": "Python"
+  },
+  {
+    "category": "Code Devops",
+    "name": "paratestphp/paratest",
+    "stars": 2456,
+    "ss": 0.81,
+    "language": "PHP"
+  },
+  {
+    "category": "Knowledge Workflow Research",
+    "name": "Shopify/roast",
+    "stars": 1108,
+    "ss": 0.85,
+    "language": "Ruby"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "open-webui/mcpo",
+    "stars": 4048,
+    "ss": 0.79,
+    "language": "Python"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "cleanlab/cleanlab",
+    "stars": 11367,
+    "ss": 0.74,
+    "language": "Python"
+  },
+  {
+    "category": "System Infrastructure",
+    "name": "dsherret/dax",
+    "stars": 1422,
+    "ss": 0.84,
+    "language": "TypeScript"
+  },
+  {
+    "category": "Data Retrieval Search",
+    "name": "knownsec/ksubdomain",
+    "stars": 2367,
+    "ss": 0.81,
+    "language": "Go"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "lingochamp/FileDownloader",
+    "stars": 11128,
+    "ss": 0.74,
+    "language": "Java"
+  },
+  {
+    "category": "External Service Connector",
+    "name": "vpulim/node-soap",
+    "stars": 3036,
+    "ss": 0.8,
+    "language": "JavaScript"
+  }
+]

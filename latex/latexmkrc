@@ -1,0 +1,4 @@
+$pdf_mode = 1;
+$interaction = 'nonstopmode';
+$bibtex = 'bibtex %O %B';
+$max_repeat = 5;

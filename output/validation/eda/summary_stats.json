@@ -1,0 +1,64 @@
+{
+  "dataset": {
+    "total_samples": 29896,
+    "clawhub_samples": 2200,
+    "github_samples": 27696
+  },
+  "skillability_core": {
+    "clawhub": {
+      "mean": 0.6418806818181817,
+      "median": 0.7000000000000001,
+      "std": 0.150989799246737
+    },
+    "github": {
+      "mean": 0.5070335066435586,
+      "median": 0.5125000000000001,
+      "std": 0.19133577520592837
+    }
+  },
+  "dimensions": {
+    "clawhub": {
+      "task_clarity": 4.49,
+      "interface_clarity": 3.837727272727273,
+      "composability": 3.417727272727273,
+      "automation_value": 4.399545454545454,
+      "deployment_friction": 2.9804545454545455,
+      "operational_risk": 2.9004545454545454
+    },
+    "github": {
+      "task_clarity": 4.03206239168111,
+      "interface_clarity": 3.661756210283073,
+      "composability": 2.7642619872905834,
+      "automation_value": 3.355971981513576,
+      "deployment_friction": 3.226386481802426,
+      "operational_risk": 2.691327267475448
+    }
+  },
+  "marketplace": {
+    "clawhub_count": 2200,
+    "downloads_mean": 904.4690909090909,
+    "installs_mean": 6.5190909090909095
+  },
+  "correlation": {
+    "skillability_vs_downloads": 0.0012012134600108298
+  },
+  "languages": {
+    "top_15": {
+      "Python": 5214,
+      "JavaScript": 3347,
+      "TypeScript": 2142,
+      "Java": 1682,
+      "C++": 1465,
+      "Go": 1358,
+      "C": 1028,
+      "C#": 918,
+      "Rust": 787,
+      "PHP": 768,
+      "Jupyter Notebook": 714,
+      "Shell": 686,
+      "HTML": 644,
+      "Swift": 576,
+      "Objective-C": 439
+    }
+  }
+}

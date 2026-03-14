@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Software Repositories to Agent Skills</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>From Software Repositories to Agent Skills</h1>
+        <p class="subtitle">An Exploratory Empirical Study of Skillability in Open-Source Ecosystems</p>
+    </header>
+
+    <main>
+        <section class="key-findings">
+            <h2>Key Findings</h2>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">29,896</div>
+                    <div class="stat-label">Analyzed Artifacts</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">35.8%</div>
+                    <div class="stat-label">High-Skillability Projects</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">9,033</div>
+                    <div class="stat-label">Promising Repositories</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">0.87</div>
+                    <div class="stat-label">Marketplace vs GitHub Gap</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="concept">
+            <h2>What is Skillability?</h2>
+            <p>Skillability measures how suitable an open-source project is for transformation into an AI agent skill, across six dimensions:</p>
+            <div class="dimensions">
+                <div class="dimension">
+                    <h3>Task Clarity (TC)</h3>
+                    <p>How focused and well-bounded the software's purpose appears</p>
+                </div>
+                <div class="dimension">
+                    <h3>Interface Clarity (IC)</h3>
+                    <p>How explicit and understandable the invocation interface is</p>
+                </div>
+                <div class="dimension">
+                    <h3>Composability (C)</h3>
+                    <p>How naturally the artifact fits into larger workflows</p>
+                </div>
+                <div class="dimension">
+                    <h3>Automation Value (AV)</h3>
+                    <p>How much useful manual effort the artifact removes</p>
+                </div>
+                <div class="dimension">
+                    <h3>Deployment Friction (DF)</h3>
+                    <p>How difficult to deploy and maintain (reverse-coded)</p>
+                </div>
+                <div class="dimension">
+                    <h3>Operational Risk (OR)</h3>
+                    <p>How risky fully automated execution is (reverse-coded)</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="visualizations">
+            <h2>Data Visualizations</h2>
+
+            <div class="viz-item">
+                <h3>Skillability Score Distribution</h3>
+                <img src="assets/fig1_skillability_distribution.png" alt="Skillability Score Distribution">
+                <p class="caption">Clawhub skills concentrate in upper range, GitHub repositories span more broadly</p>
+                <p class="explanation">This histogram compares 2,200 Clawhub skills (mean SS = 3.75, SD = 0.82) against 27,696 GitHub repositories (mean SS = 2.88, SD = 1.21). The 0.87 point gap is statistically significant (Welch's t-test p < 0.001, Cohen's d = 0.74). Clawhub's distribution peaks around 3.5-4.5, with 75.7% scoring >= 4.0, while GitHub shows a broader spread with only 32.6% reaching high-skillability threshold. This reflects three confounds: marketplace artifacts have purpose-built descriptions for agents, undergo curation before publication, and are intentionally scoped as single skills rather than broad platforms.</p>
+            </div>
+
+            <div class="viz-item">
+                <h3>Six-Dimension Comparison</h3>
+                <img src="assets/fig_new1_dimension_comparison_ci.png" alt="Dimension Comparison">
+                <p class="caption">Automation Value and Composability show largest gaps between marketplace and GitHub</p>
+                <p class="explanation">This chart displays mean scores with 95% confidence intervals for each dimension. Automation Value shows the largest marketplace advantage (+1.04 points, Cohen's d = 0.95): Clawhub skills average 4.40 vs GitHub's 3.36, indicating marketplace artifacts target high-value repetitive tasks. Composability follows (+0.66, d = 0.70), reflecting intentional wrapping for workflow integration—marketplace skills average 3.42 vs 2.76 for repositories. Task Clarity is high across both groups (4.49 vs 4.03), suggesting many repositories communicate focused purpose even when not ideal skill candidates. Interface Clarity, Deployment Friction, and Operational Risk show smaller gaps, with the latter two reverse-coded (lower raw scores are better).</p>
+            </div>
+
+            <div class="viz-item">
+                <h3>Capability Category Ranking</h3>
+                <img src="assets/fig_new2_category_ranking.png" alt="Category Ranking">
+                <p class="caption">Data Retrieval, Multimedia Content, and System Infrastructure score highest</p>
+                <p class="explanation">Categories ranked by mean skillability in the GitHub sample (n=27,696). Data Retrieval & Search leads at 3.42 (SD=1.08, 48.3% high-skillability), followed by Multimedia Content at 3.38 (SD=1.12, 46.1%) and System Infrastructure at 3.31 (SD=1.15, 44.2%). These domains share common traits: focused transformations, explicit interfaces, and obvious automation value. At the bottom, External Service Connectors average 2.71 (28.9% high-skillability), facing complexity from authentication, rate limiting, and external dependency coupling. The structured distribution means batch skillification efforts can target high-yield categories first rather than sampling uniformly across the ecosystem.</p>
+            </div>
+
+            <div class="viz-item">
+                <h3>High-Skillability Distribution by Category</h3>
+                <img src="assets/fig_new3_high_skillability_by_category.png" alt="High Skillability by Category">
+                <p class="caption">Significant variation in high-skillability rates across categories</p>
+                <p class="explanation">This bar chart shows the percentage of repositories scoring SS >= 4.0 within each category. Data Retrieval leads at 48.3% (1,141 of 2,365 projects), nearly double the rate of External Service Connectors at 28.9% (576 of 1,991). The 19.4 percentage point spread demonstrates that high-potential repositories concentrate rather than distribute uniformly. For practical conversion pipelines, this means starting with Data Retrieval, Multimedia (46.1%), and System Infrastructure (44.2%) yields roughly one viable candidate per two repositories screened, versus one per three or four in lower-ranking categories. The pattern validates targeting domain-specific batches rather than random sampling.</p>
+            </div>
+
+            <div class="viz-item">
+                <h3>Top Candidate Repositories</h3>
+                <img src="assets/fig_new4_top_opportunities.png" alt="Top Opportunities">
+                <p class="caption">Highest-ranked GitHub repositories by opportunity score</p>
+                <p class="explanation">OpportunityScore = 0.6 × normalize(SS) + 0.4 × RepoQuality, where RepoQuality combines log-scaled stars, recency, README length, and license presence. This heuristic balances skillability with practical repository signals to avoid ranking abandoned or poorly documented projects at the top. Examples: fzf (78,568 stars, SS=5.0, score=0.903) exemplifies the ideal—focused CLI tool with clear stdin/stdout model and deterministic local execution. jq (33,814 stars, SS=5.0, score=0.879) offers declarative JSON transformation with strong composability and minimal side effects. sharp (32,011 stars, SS=5.0, score=0.877) provides a clear image processing API with predictable outputs. These aren't just popular—they score maximum skillability through bounded scope, explicit interfaces, and high automation value.</p>
+            </div>
+
+            <div class="viz-item">
+                <h3>Skillability vs Repository Stars</h3>
+                <img src="assets/fig8_stars_vs_skillability.png" alt="Stars vs Skillability">
+                <p class="caption">Skillability is effectively independent of popularity (r<sub>s</sub> = 0.003)</p>
+                <p class="explanation">This scatter plot (log-scale x-axis) reveals near-zero Spearman correlation (r_s = 0.003, p = 0.62) between skillability and GitHub stars across 27,696 repositories. High-skillability projects (SS >= 4.0, shown in darker points) appear across the full popularity spectrum—from sub-100 stars to 50,000+. This independence is strategically crucial: star-based curation would systematically miss thousands of viable candidates. Popular repositories often include broad frameworks, end-user applications, and infrastructure platforms whose value doesn't translate to single-skill packaging. Conversely, small focused tools may be highly promising. The finding validates the need for a dedicated discovery layer rather than relying on conventional popularity signals.</p>
+            </div>
+        </section>
+
+        <section class="insights">
+            <h2>Key Insights</h2>
+            <div class="insight-grid">
+                <div class="insight-card">
+                    <h3>🎯 Scale Opportunity</h3>
+                    <p>Over one-third of open-source projects show high skillability potential, making batch conversion feasible</p>
+                </div>
+                <div class="insight-card">
+                    <h3>📊 Structured Distribution</h3>
+                    <p>High-potential projects concentrate in Data Retrieval, Multimedia, and System Infrastructure domains</p>
+                </div>
+                <div class="insight-card">
+                    <h3>⭐ Popularity Trap</h3>
+                    <p>Repository stars are uncorrelated with skillability—relying on popularity misses many viable candidates</p>
+                </div>
+                <div class="insight-card">
+                    <h3>🔧 Actionable Guidance</h3>
+                    <p>9,033 specific high-potential repositories identified as skill conversion starting points</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="examples">
+            <h2>High-Potential Repository Examples</h2>
+            <p>Top 250 repositories ranked by opportunity score. Use pagination to browse all candidates.</p>
+
+            <div class="pagination-controls">
+                <button id="prevBtn" onclick="changePage(-1)">← Previous</button>
+                <span id="pageInfo"></span>
+                <button id="nextBtn" onclick="changePage(1)">Next →</button>
+            </div>
+
+            <table id="repoTable">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Category</th>
+                        <th>Repository</th>
+                        <th>Stars</th>
+                        <th>SS</th>
+                        <th>Language</th>
+                    </tr>
+                </thead>
+                <tbody id="repoTableBody">
+                </tbody>
+            </table>
+
+            <div class="pagination-controls">
+                <button onclick="changePage(-1)">← Previous</button>
+                <span id="pageInfo2"></span>
+                <button onclick="changePage(1)">Next →</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Based on: From Software Repositories to Agent Skills (2026)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

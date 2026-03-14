@@ -1,0 +1,130 @@
+{
+  "full_model_auc": 0.9862569548162616,
+  "feature_importance": {
+    "has_license": 0.8783594112455382,
+    "gran_primitive_tool": 0.0569027565581368,
+    "composability": 0.011756597851722287,
+    "automation_value": 0.007362841414506169,
+    "cap_multimedia_content": 0.004866854705292444,
+    "gran_workflow_skill": 0.004272764418322468,
+    "task_clarity": 0.0037436876851619245,
+    "cap_data_retrieval_search": 0.003207637502799227,
+    "cap_communication_collaboration": 0.0031500252462615696,
+    "cap_knowledge_workflow_research": 0.002526410786224769,
+    "deployment_friction": 0.0024301502830859126,
+    "interface_clarity": 0.0024247345423767026,
+    "cap_web_automation": 0.002392315611882733,
+    "skillability_core": 0.002379812961596365,
+    "cap_business_productivity_ops": 0.002095368370661126,
+    "operational_risk": 0.002069491246638319,
+    "gran_platform_adapter": 0.0020632205687221407,
+    "gran_service_wrapper": 0.0018445714215719047,
+    "cap_code_devops": 0.0018276783480788688,
+    "cap_system_infrastructure": 0.001797514015638695,
+    "cap_external_service_connector": 0.0013890252648022852,
+    "cap_document_processing": 0.0011371299509791225,
+    "archived": 0.0
+  },
+  "shap_importance": {
+    "has_license": 6.20611572265625,
+    "automation_value": 0.9531446099281311,
+    "gran_primitive_tool": 0.7894455194473267,
+    "skillability_core": 0.6826194524765015,
+    "composability": 0.5731411576271057,
+    "task_clarity": 0.39979347586631775,
+    "deployment_friction": 0.3795185685157776,
+    "interface_clarity": 0.36647504568099976,
+    "operational_risk": 0.34115368127822876,
+    "gran_workflow_skill": 0.31721311807632446,
+    "cap_multimedia_content": 0.1804356426000595,
+    "cap_data_retrieval_search": 0.1349409520626068,
+    "cap_system_infrastructure": 0.1296215057373047,
+    "cap_knowledge_workflow_research": 0.10897312313318253,
+    "cap_communication_collaboration": 0.10378960520029068,
+    "gran_service_wrapper": 0.09747963398694992,
+    "cap_web_automation": 0.08863234519958496,
+    "gran_platform_adapter": 0.08571642637252808,
+    "cap_code_devops": 0.07158112525939941,
+    "cap_external_service_connector": 0.05472063273191452,
+    "cap_document_processing": 0.04702794551849365,
+    "cap_business_productivity_ops": 0.03027302399277687,
+    "archived": 0.0
+  },
+  "ablation_auc_drop": {
+    "task_clarity": 0.0005518718508428222,
+    "interface_clarity": 0.00017684518045602005,
+    "composability": -1.55919184623432e-05,
+    "automation_value": -0.00015838106648713435,
+    "deployment_friction": 0.0002113115265309773,
+    "operational_risk": 0.0004815030609398585
+  },
+  "single_dim_auc": {
+    "task_clarity": 0.6445805773933595,
+    "interface_clarity": 0.5879864268246647,
+    "composability": 0.7218647934481117,
+    "automation_value": 0.7763628567677132,
+    "deployment_friction": 0.6116545487370547,
+    "operational_risk": 0.6327179996389241
+  },
+  "top_3_dimensions_by_shap": [
+    "automation_value",
+    "composability",
+    "task_clarity"
+  ],
+  "top_3_dimensions_by_gain": [
+    "composability",
+    "automation_value",
+    "task_clarity"
+  ],
+  "top_3_dimensions_by_ablation": [
+    "task_clarity",
+    "operational_risk",
+    "deployment_friction"
+  ],
+  "top_3_dimensions": [
+    "automation_value",
+    "composability",
+    "task_clarity"
+  ],
+  "skillability_dim_importance_shap": {
+    "task_clarity": 0.39979347586631775,
+    "interface_clarity": 0.36647504568099976,
+    "composability": 0.5731411576271057,
+    "automation_value": 0.9531446099281311,
+    "deployment_friction": 0.3795185685157776,
+    "operational_risk": 0.34115368127822876
+  },
+  "skillability_dim_importance_gain": {
+    "task_clarity": 0.0037436876851619245,
+    "interface_clarity": 0.0024247345423767026,
+    "composability": 0.011756597851722287,
+    "automation_value": 0.007362841414506169,
+    "deployment_friction": 0.0024301502830859126,
+    "operational_risk": 0.002069491246638319
+  },
+  "full_feature_names": [
+    "task_clarity",
+    "interface_clarity",
+    "composability",
+    "automation_value",
+    "deployment_friction",
+    "operational_risk",
+    "skillability_core",
+    "has_license",
+    "archived",
+    "cap_code_devops",
+    "cap_data_retrieval_search",
+    "cap_document_processing",
+    "cap_web_automation",
+    "cap_communication_collaboration",
+    "cap_knowledge_workflow_research",
+    "cap_business_productivity_ops",
+    "cap_multimedia_content",
+    "cap_system_infrastructure",
+    "cap_external_service_connector",
+    "gran_primitive_tool",
+    "gran_service_wrapper",
+    "gran_workflow_skill",
+    "gran_platform_adapter"
+  ]
+}
