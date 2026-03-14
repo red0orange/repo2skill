@@ -28,6 +28,26 @@ header h1 {
     opacity: 0.9;
 }
 
+.links {
+    margin-top: 1rem;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    background: rgba(255,255,255,0.2);
+    border-radius: 4px;
+    transition: background 0.3s;
+}
+
+.links a:hover {
+    background: rgba(255,255,255,0.3);
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
