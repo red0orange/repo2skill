@@ -5,6 +5,8 @@
 
 An empirical study analyzing 29,896 software artifacts to understand which open-source repositories are suitable for transformation into AI agent skills.
 
+The default extraction backend in this repository is Alibaba Bailian (`qwen-plus`).
+
 ## 📊 Key Findings
 
 - **35.8%** of analyzed projects show high skillability potential
