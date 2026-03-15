@@ -1,6 +1,7 @@
 # From Software Repositories to Agent Skills
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-red)](paper/paper_v7.md)
+[![Project Homepage](https://img.shields.io/badge/Homepage-Visit-green)](https://red0orange.github.io/repo2skill/)
+[![Paper](https://img.shields.io/badge/Paper-PDF-red)](https://github.com/red0orange/repo2skill/blob/main/main.pdf)
 [![Website](https://img.shields.io/badge/Website-Docs-blue)](docs/index.html)
 
 An empirical study analyzing 29,896 software artifacts to understand which open-source repositories are suitable for transformation into AI agent skills.
